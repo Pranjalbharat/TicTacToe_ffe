@@ -9,9 +9,9 @@ public class hello {
         Board b = new Board(3);
         b.printBoardConfig();
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter name of player 1");
+        System.out.println("enter name of player 0");
         String name1 = sc.nextLine();
-        System.out.println("enter char of player1");
+        System.out.println("enter char of player 1");
         char symbol1 = sc.nextLine().charAt(0);
         Player p1 = new Player();
         p1.setDetails(name1, 19, "Ahmedabad", 706931244, "dhruvishah116122@gmai.com",
